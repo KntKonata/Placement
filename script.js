@@ -60,6 +60,8 @@ function getGroups(etudiants, nbGroups)
         etudiantElt.textContent = currentStudent;
         if (currentStudent == 'Dorra' || currentStudent == 'Stéphanie') {
           etudiantElt.classList.add('girl');
+        } else if (currentStudent == 'Paul') {
+          etudiantElt.classList.add('deleg');
         } else {
           etudiantElt.classList.add('guy');
         }
