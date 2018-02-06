@@ -1,0 +1,52 @@
+body {
+	background-color: rgb(60,60,60);
+	font-family: Ubuntu;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+h1 {
+	color: rgba(255,255,255,.3);
+	border-bottom: 1px solid rgba(255,255,255,.3);
+	text-align: center;
+	padding: 20px;
+}
+
+#container .group:nth-child(2n) {
+	position: relative;
+	top: 100px;
+}
+
+.group {
+	display: flex;
+	align-items: space-around;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 370px;
+	background-color: #f4f4f4;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: -3px -3px 0px rgba(0,0,0,.1) inset,
+				3px 3px 0px rgba(255,255,255,1) inset;
+}
+
+p.student {
+	font-size: 25px;
+	width: 100px;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	box-shadow: -3px -3px 0px rgba(0,0,0,.1) inset,
+				3px 3px 0px rgba(255,255,255,.3) inset;
+}
+
+p.girl { background-color: #edbdd7; }
+
+p.guy { background-color: #73cce2; }
