@@ -7,7 +7,7 @@ var CustomRandom = function(nseed) {
 }
 
 var etudiants = ['Mathias','Chihab','Grégoire','Grégory','Paul','Manu','Dorra','Stéphanie','Nicolas','Frédéric','Maxime','Samir'];
-var test = Math.floor(Date.now()/1000/60/60);
+var test = Math.floor(Date.now()/1000/60);
 var rng = CustomRandom(test);
 
 function getGroups(etudiants, nbGroups)
